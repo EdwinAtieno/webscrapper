@@ -1,9 +1,4 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GithuiVictor_Skaehub-News-Web-Scrapper-Project&metric=alert_status)](https://sonarcloud.io/dashboard?id=GithuiVictor_Skaehub-News-Web-Scrapper-Project)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=GithuiVictor_Skaehub-News-Web-Scrapper-Project&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=GithuiVictor_Skaehub-News-Web-Scrapper-Project)
-
-
-# A News Web Scraper App  (Skaehub Boot Camp Project)
-### A project completed as part of the Cycle #1 Skaehub Boot Camp program's first checkpoint. 
+[![Maintainability Rating](Problem 1: Web server (with optional secure communication).
 
 #### Problem Definition
 The main goal of this project is to accept a user's news url as input, scrape all of the news data from the url, display the data in the CLI app, and save it to a .txt file. 
@@ -19,12 +14,8 @@ The main goal of this project is to accept a user's news url as input, scrape al
   ```python
     sudo apt-get install python-bs4
   ```
-  * Or on the cloned directory run
-  ```python
-    pip3 install requirements.txt
-  ```
 * Prompt or Request input from the user. It should be a news url.
-* Make a HTTP request from the url
+* Make a HTTP request from the any Url
 ```python
   import requests
   
@@ -66,9 +57,6 @@ with open('general-news.txt', 'w') as output_file:
 1. Every website is different. While you’ll encounter general structures that repeat themselves, each website is unique and will need personal treatment if you want to extract the relevant information.
 2. Websites are always changing.
 
-## Credits
-1. [Victor Githui M.](https://victor-githui.netlify.app/)
-2. [SkaeHub Developer Program](https://www.skaehub.com/#/)
 
 
 

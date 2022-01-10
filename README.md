@@ -1,8 +1,7 @@
-[![Maintainability Rating](Problem 1: Web server (with optional secure communication).
+Problem 1: Web server (with optional secure communication
 
 #### Problem Definition
-The main goal of this project is to accept a user's news url as input, scrape all of the news data from the url, display the data in the CLI app, and save it to a .txt file. 
-
+The main goal of this project is Design a basic HTTP web-server application which can listen on a configurable TCP port and serve both static HTML and dynamically generated HTML by means of a chosen programming language, such as in the way Apache uses PHP. It is acceptable for this server application to support only a restricted subset of HTTP, such as GET or POST requests, and the only headers it must support are Content-Type and Content-Length.
 #### How are we supposed to achieve this?
 * Explore news sites and understand how different sites are structured so that you can have some knowledge on how to extract the information that is relevant to you
 * Now that you have an idea of what you're working with, install and import the necessary dependencies for your project. That include:

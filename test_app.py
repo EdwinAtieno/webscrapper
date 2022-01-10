@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 """Create test class"""
 class TestApp(unittest.TestCase):
     def setUp(self):
-        self.path = './app.py'
+        self.path = 'app.py'
         self.app = NewsScraperApp('https://news.yahoo.com/')
     
 

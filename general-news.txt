@@ -1,0 +1,74 @@
+[
+    [
+        {
+            "headline": "Responsibilities",
+            "article_link": "",
+            "description": "To know whether the role will be a fit for you, we have provided a series of challenging questions. If you are interested, attempt at least one of these and document the results. Do not worry if you are not able to solve these problems\u2014our aim is to assess your thought process, rather than to make actual use of your solution. We will also accept carefully-thought-out specifications of solutions in lieu\u00a0of those that are developed, but to increase your chances we would suggest you attempt the implementation of at least one of the problems."
+        },
+        {
+            "headline": "Requirements",
+            "article_link": "",
+            "description": "To know whether the role will be a fit for you, we have provided a series of challenging questions. If you are interested, attempt at least one of these and document the results. Do not worry if you are not able to solve these problems\u2014our aim is to assess your thought process, rather than to make actual use of your solution. We will also accept carefully-thought-out specifications of solutions in lieu\u00a0of those that are developed, but to increase your chances we would suggest you attempt the implementation of at least one of the problems."
+        },
+        {
+            "headline": "Problem 1: Web server (with optional secure communication).",
+            "article_link": "",
+            "description": "Design a basic HTTP web-server application which can listen on a configurable TCP port and serve both static HTML and dynamically generated HTML by means of a chosen programming language, such as in the way Apache uses PHP. It is acceptable for this server application to support only a restricted subset of HTTP, such as GET or POST requests, and the only headers it must support are Content-Type and Content-Length.Update: Many applicants are misunderstanding and submitting web services and web applications instead of web servers. Please note that this problem is about designing a web server like Apache or Nginx, not a web application."
+        },
+        {
+            "headline": "Extensions.",
+            "article_link": "",
+            "description": "For extra points you may want extend the server with one of the following:\u00a0"
+        },
+        {
+            "headline": "Problem 2: Re-routing/forwarding communication.",
+            "article_link": "",
+            "description": "Write a client/server pair of applications that can forward communication in a manner similar to what ngrok does. The communication must be secured end-to-end using asymmetric key cryptography."
+        },
+        {
+            "headline": "Extensions.",
+            "article_link": "",
+            "description": "Consider extending the functionality in any way you find interesting. One avenue to explore is how one might use a single server port to forward communication to multiple client endpoints, perhaps by using a REST API on the server that includes a field for the intended client destination."
+        },
+        {
+            "headline": "Problem 3: Diction & dictionary scrapping.",
+            "article_link": "",
+            "description": "Write an application which, when given a web page will download the text on it and output a sorted list of the unique words on the page, with counts of the occurrences."
+        },
+        {
+            "headline": "Extensions.",
+            "article_link": "",
+            "description": "Consider extending the application to work with a dictionary, or configurable word list, so one can e.g. find the non-English words on the page. Or perhaps provide a way to compare two (or more pages) in terms of words found in both and only in one or the other?"
+        },
+        {
+            "headline": "Problem 4: Markdown engine.",
+            "article_link": "",
+            "description": "Write an application that takes in Markdown and outputs HTML, LaTeX, or any other standard document format based on the input. It is not necessary that the entire syntax of Markdown be implemented, but of course the closer it is to the entire the better the work will appear. But elegance is the greatest desideratum."
+        },
+        {
+            "headline": "Extensions.",
+            "article_link": "",
+            "description": "Consider implementing Markdown Extended or outputting useful error messages involving line numbers and the like."
+        },
+        {
+            "headline": "Problem 5: Fermat near-misses.",
+            "article_link": "",
+            "description": "Statement: Design a simple program to produce near-misses of integer triplets that would satisfy"
+        },
+        {
+            "headline": "Extensions.",
+            "article_link": "",
+            "description": "Do the same for another property you find interesting. Riemann-Zeta zeroes, perhaps?"
+        },
+        {
+            "headline": "Submit Your Application",
+            "article_link": "",
+            "description": null
+        }
+    ],
+    {
+        "headline": "Submit Your Application",
+        "article_link": "",
+        "description": null
+    }
+]

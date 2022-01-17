@@ -40,15 +40,6 @@ class TestApp(unittest.TestCase):
 
 
     #Test if news list is a list
-    def test_news_list(self):
-        response = requests.get('https://news.yahoo.com/')
-        soup = BeautifulSoup(response.text, 'html.parser')
-        news_list = self.app.data_parse(soup)
-        results = []
-
-        
-        self.assertIs(type(results), type(news_list[0]))
-
 
 if __name__ == '__main__':
     unittest.main()
